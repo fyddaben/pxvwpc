@@ -13,6 +13,11 @@
     "px",
     "vw"
   ],
+  "homepage":"https://github.com/fyddaben/pxvwpc/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyddaben/pxvwpc.git"
+  },
   "author": "daben1990",
   "license": "ISC"
 }
