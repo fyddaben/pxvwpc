@@ -1,11 +1,24 @@
 # pxvwpc
 > postcss 的px 转vw 的plugin，主要用于PC端的无限适配
+
+
 This is updated from [postcss-px-to-vw](https://www.npmjs.com/package/postcss-px-to-vw),
 and I add some trick because I just need some new file  use this plugin
 
 
-
 ## How to use
+
+### Step1 npm install
+
+```
+  npm i pxvwpc
+```
+### Step2 Postcss plugin
+
+```
+postcss([require('postcss-px-to-vw')()])
+```
+
 
 ### Start scan this file by add some code
 ```
@@ -44,7 +57,7 @@ Plug it into your PostCSS configuration.
 
 ```
 var option = {
-  uwUnit: 1920, // Base designer size; 1920px by default
+  vwUnit: 1920, // Base designer size; 1920px by default
 };
 
 postcss([require('postcss-px-to-vw')(option)])

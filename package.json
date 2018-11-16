@@ -1,6 +1,6 @@
 {
   "name": "pxvwpc",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Px to vw in pc html ",
   "main": "index.js",
   "scripts": {
